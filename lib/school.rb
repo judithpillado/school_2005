@@ -16,4 +16,8 @@ class School
     end_time.to_s + ":00"
   end
 
+  def is_full_time?
+    @hours_in_school_day > 4
+  end
+
 end
